@@ -1,0 +1,38 @@
+job_role_id,job_title,department_id,job_level,min_salary,max_salary
+1,HR Executive,1,Junior,300000,600000
+2,HR Generalist,1,Mid,450000,900000
+3,Talent Acquisition Specialist,1,Mid,450000,900000
+4,HR Business Partner,1,Senior,900000,1600000
+5,HR Manager,1,Manager,1200000,2000000
+6,IT Support Specialist,2,Junior,300000,650000
+7,Data Analyst,2,Mid,400000,800000
+8,QA Engineer,2,Mid,450000,1000000
+9,Software Engineer,2,Mid,800000,1600000
+10,Senior Data Analyst,2,Senior,700000,1600000
+11,Senior Software Engineer,2,Senior,1400000,2600000
+12,IT Manager,2,Manager,1500000,2500000
+13,Accounts Executive,3,Junior,300000,600000
+14,Accountant,3,Mid,400000,800000
+15,Financial Analyst,3,Mid,500000,1000000
+16,Senior Financial Analyst,3,Senior,900000,1600000
+17,Finance Manager,3,Manager,1300000,2200000
+18,Sales Executive,4,Junior,300000,700000
+19,Account Manager,4,Mid,500000,1000000
+20,Senior Sales Executive,4,Senior,600000,1200000
+21,Business Development Manager,4,Senior,800000,1500000
+22,Sales Manager,4,Manager,1000000,1800000
+23,Marketing Executive,5,Junior,300000,600000
+24,Content Strategist,5,Mid,400000,850000
+25,Digital Marketing Specialist,5,Mid,450000,900000
+26,Senior Marketing Specialist,5,Senior,800000,1400000
+27,Marketing Manager,5,Manager,1200000,2000000
+28,Operations Associate,6,Junior,250000,500000
+29,Logistics Coordinator,6,Mid,350000,700000
+30,Operations Analyst,6,Mid,450000,900000
+31,Senior Operations Analyst,6,Senior,800000,1400000
+32,Operations Manager,6,Manager,1200000,2000000
+33,Support Associate,7,Junior,220000,450000
+34,Customer Support Executive,7,Mid,300000,600000
+35,Senior Support Executive,7,Senior,500000,900000
+36,Support Team Lead,7,Lead,600000,1100000
+37,Support Manager,7,Manager,900000,1600000

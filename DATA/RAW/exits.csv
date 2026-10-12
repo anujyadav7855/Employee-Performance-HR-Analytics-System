@@ -1,0 +1,117 @@
+employee_id,exit_date,exit_type,exit_reason
+1,2023-03-06,Resignation ,Work-Life Balance
+2,22/06/2023,Resignation,Better Pay
+7,27/05/2023,Resignation,Work-Life Balance
+9,2025-09-02,Resignation,Work-Life Balance
+11,2022-09-05,Resignation,Management Issues
+17,2025-07-12,Resignation,Work-Life Balance
+21,2024-12-21,Resignation,Work-Life Balance
+24,2025-07-24,Resignation,Career Growth
+25,2015-06-04,Resignation,Work-Life Balance
+27,2023-08-14,Resignation,N/A
+28,2024-11-08,Retirement,Retirement
+30,2022-03-09,Resignation,N/A
+34,2025-02-23,Resignation,Better Pay
+36,2024-10-16,Resignation,Management Issues
+40,2023-10-10,Resignation,Management Issues
+45,24/01/2024,Resignation,Career Growth
+46,2023-10-09,Termination,Performance
+51,2023-12-11,Resignation,Work-Life Balance
+52,2025-02-03,Resignation,
+53,2025-02-23,Resignation,Personal Reasons
+56,09/07/2024,Resignation,Work-Life Balance
+57,2022-10-13,retired,Retirement
+60,2022-09-24,Resignation,Higher Studies
+61,18/05/2024,Resignation,Better Pay
+71,2022-01-21,Resignation,Career Growth
+72,2025-04-23,Resignation,Career Growth
+73,2025-03-04,Resignation,Career Growth
+81,2024-07-07,resigned,Higher Studies
+83,2025-06-06,Retirement,N/A
+86,2022-08-21,Resignation,Career Growth
+90,2023-08-11,Retirement,Retirement
+92,2023-05-02,Resignation,Work-Life Balance
+96,2025-05-24,Resignation,Career Growth
+101,2024-11-30,Resignation,Work-Life Balance
+104,2024-10-23,Resignation,Career Growth
+106,2022-01-18,Termination,Performance
+107,2023-01-24,Resignation,Work-Life Balance
+109,2022-10-08,Resignation,Better Pay
+111,2025-06-26,Resignation,Career Growth
+117,2023-11-02,Resignation,Better Pay
+119,2024-07-29,Resignation,Work-Life Balance
+124,2023-05-16,resigned,Relocation
+126,2022-06-10,Resignation,
+132,2025-03-23,Resignation,
+136,2023-09-27,Resignation,Management Issues
+138,2024-03-18,Resignation,Better Pay
+139,2022-12-30,Retirement,Retirement
+141,2023-03-23,Resignation,Work-Life Balance
+142,2022-04-03,Resignation,Personal Reasons
+145,2025-01-31,Termination,Restructuring
+146,2024-01-28,Termination,Restructuring
+147,2023-01-25,Resign,Personal Reasons
+153,2022-12-21,TERMINATION,Performance
+155,2022-02-15,Resignation,N/A
+157,2022-07-12,Resignation,Career Growth
+159,2022-09-20,Resignation,Career Growth
+167,2022-12-03,Termination,Restructuring
+168,2025-10-09,Resignation,Personal Reasons
+171,2025-07-06,Resignation,Work-Life Balance
+174,2025-03-27,Resignation,Career Growth
+175,2024-08-15,Resignation,
+177,2023-09-05,Termination,Performance
+180,2023-06-09,Resignation,Career Growth
+186,2023-01-30,Termination,Restructuring
+189,2025-04-13,Resignation,Work-Life Balance
+190,2024-09-12,Resignation,Career Growth
+196,2024-06-13,Resignation,Work-Life Balance
+203,2022-02-06,Resignation,Work-Life Balance
+207,2022-10-20,Resignation,Better Pay
+208,2024-03-24,Resignation,Work-Life Balance
+209,2025-12-10,Resignation,Personal Reasons
+210,2025-10-27,Resignation,Work-Life Balance
+213,2022-01-03,Resignation,Work-Life Balance
+214,2024-06-20,Resignation,Better Pay
+215,2023-07-06,Resignation,Relocation
+216,2024-12-11,RESIGNATION,Personal Reasons
+219,2023-02-27,Resignation,Work-Life Balance
+222,2023-10-07,Resignation,Work-Life Balance
+226,2025-01-03,Resignation,Better Pay
+227,2025-09-06,Resign,Better Pay
+230,2025-08-26,Resignation,
+232,2022-04-24,Resignation,Work-Life Balance
+234,2023-03-18,Termination,Performance
+236,2021-05-06,Resignation,Better Pay
+237,2022-06-18,resigned,Career Growth
+239,2024-06-25,Resignation,Better Pay
+247,2024-01-08,Resignation,Work-Life Balance
+251,2025-12-01,Resignation,Career Growth
+252,2023-04-17,Resignation,N/A
+253,2021-09-18,Resignation,Better Pay
+255,2025-10-06,Resignation,Better Pay
+261,2022-08-13,Resignation,Better Pay
+266,2024-10-01,Resignation,Management Issues
+269,2024-09-22,Resignation,Relocation
+281,2025-05-23,Resignation,Higher Studies
+283,2025-11-10,Resignation,Better Pay
+284,2025-07-10,Resignation ,Better Pay
+288,2023-10-05,Resignation,Better Pay
+293,19/04/2025,Resignation,Personal Reasons
+294,2024-08-18,Resignation,Higher Studies
+298,2025-08-17,Resignation,Better Pay
+299,2024-12-16,Resignation,Career Growth
+303,2024-06-24,Resign,Relocation
+306,2024-02-19,Resignation,Work-Life Balance
+317,2023-09-07,Resignation,Better Pay
+318,2024-03-04,Resignation,Better Pay
+325,2024-01-26,Resignation,Better Pay
+333,2025-02-08,Resignation,Better Pay
+342,2024-10-15,Resignation,Better Pay
+369,2025-07-27,RESIGNATION,Better Pay
+375,2025-08-09,Resignation,
+379,2025-06-30,Resignation,Better Pay
+9003,2024-05-15,Resignation,Better Pay
+146,2024-01-28,Termination,Restructuring
+153,2022-12-21,TERMINATION,Performance
+141,2023-03-23,Resignation,Work-Life Balance

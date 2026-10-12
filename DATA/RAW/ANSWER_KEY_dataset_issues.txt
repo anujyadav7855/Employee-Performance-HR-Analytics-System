@@ -1,0 +1,63 @@
+ANSWER KEY - open only AFTER you have profiled the staging data (Day 5 assignment).
+Counts are the number of problems the generator injected into the raw CSVs.
+Your profiling queries may show slightly different numbers where problems overlap
+(e.g. a duplicated row that also has a bad date counts in both checks).
+
+RAW data rows per file:
+  departments.csv                   7
+  job_roles.csv                    37
+  employees.csv                   406
+  salary_history.csv            1,786
+  attendance.csv              296,960
+  performance_reviews.csv       2,234
+  promotions.csv                  137
+  exits.csv                       116
+INJECTED ISSUES:
+    12  employees: inconsistent gender values
+    10  employees: blank city
+     5  employees: e-mail UPPERCASE
+     4  employees: e-mail with leading/trailing spaces
+     3  employees: blank e-mail
+     4  employees: hire_date in the future (2027)
+     3  employees: under 18 at hire
+     2  employees: department_id 99 (does not exist)
+    12  employees: hire_date written DD-MM-YYYY
+     6  employees: date_of_birth written DD/MM/YYYY
+    10  employees: names with odd case/spaces
+     2  employees: manager_id 9999 (does not exist)
+     2  employees: e-mail shared by two different employees (pairs)
+     6  employees: exact duplicate rows
+     4  salary_history: negative salary
+     2  salary_history: zero salary
+     4  salary_history: salary 10x too large (typo outlier)
+     8  salary_history: change_reason casing/spacing/abbreviation
+     5  salary_history: blank change_reason
+     4  salary_history: salary written as 'INR 123456'
+     6  salary_history: employee_id not in Employees (orphans)
+     3  salary_history: exact duplicate rows
+   400  attendance: status spelling variants (P, A, L, HD, lower/upper...)
+    25  attendance: check_out earlier than check_in
+    60  attendance: Present with blank times
+    30  attendance: Absent/Leave but with check-in/out times
+     6  attendance: blank attendance_date
+    38  attendance: rows on Saturday/Sunday
+    20  attendance: rows dated after the employee's exit
+    20  attendance: employee_id not in Employees (orphans)
+   150  attendance: exact duplicate rows
+    17  performance_reviews: invalid rating (0, 6, 7, blank, 'Good', 'N/A')
+    10  performance_reviews: review_period format variants
+     4  performance_reviews: reviewer is the employee themself
+     6  performance_reviews: blank reviewer_id
+     6  performance_reviews: review dated after the employee's exit
+     5  performance_reviews: exact duplicate rows
+     2  promotions: old_job_role_id = new_job_role_id
+     3  promotions: promotion dated before hire
+     1  promotions: employee_id not in Employees (orphan)
+     2  promotions: exact duplicate rows
+    12  exits: exit_type spelling variants
+     3  exits: exit_date before hire_date
+     5  exits: exit_reason 'N/A'
+     6  exits: blank exit_reason
+     6  exits: exit_date written DD/MM/YYYY
+     1  exits: employee_id not in Employees (orphan)
+     3  exits: exact duplicate rows
